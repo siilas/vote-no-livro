@@ -1,0 +1,6 @@
+/target
+/votenolivro
+*.log
+*.classpath
+*.project
+*.settings
