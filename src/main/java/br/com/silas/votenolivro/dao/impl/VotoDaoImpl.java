@@ -1,5 +1,7 @@
 package br.com.silas.votenolivro.dao.impl;
 
+import java.util.List;
+
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,5 +19,13 @@ public class VotoDaoImpl extends GenericDaoImpl<Voto> implements VotoDao {
 		Query query = getSession().createQuery(sql);
 		query.setParameter("livro", livro);
 		return (Voto) query.uniqueResult();
+	}
+
+	@Override
+	@SuppressWarnings("unchecked")
+	public List<Voto> buscarRanking() {
+		String sql = "FROM Voto V ORDER BY V.quantidade DESC";
+		Query query = getSession().createQuery(sql);
+		return query.list();
 	}
 }
