@@ -1,0 +1,20 @@
+Projeto Vote No Livro
+
+Frameworks utilizados:
+Spring
+Hibernate
+Sitemesh
+jUnit
+Sellenium
+jQuery
+Bootstrap
+
+Instruções:
+
+No diretório do projeto, digite:
+
+# mvn package
+
+E depois:
+
+# java -jar target/dependency/jetty-runner.jar target/*.war
