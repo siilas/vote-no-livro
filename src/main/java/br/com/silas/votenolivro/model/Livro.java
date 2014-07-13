@@ -92,6 +92,13 @@ public class Livro implements Serializable {
 		this.descricao = descricao;
 	}
 	
+	public String getArquivo() {
+		String arquivo = nome.toLowerCase();
+		arquivo = arquivo.replace(" ", "_");
+		arquivo = arquivo.replace("é", "e");
+		return arquivo;
+	}
+	
 	@Override
 	public int hashCode() {
 		return new HashCodeBuilder()

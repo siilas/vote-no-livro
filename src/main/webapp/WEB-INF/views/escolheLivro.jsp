@@ -28,7 +28,7 @@
 						<div class="col-md-6">
 							<div class="thumbnail">
 								<a href="javascript:escolherLivro('${livro.id}');">
-									<c:url value="/resources/img/livros/${livro.nome}.jpg" var="imagem" />
+									<c:url value="/resources/img/livros/${livro.arquivo}.jpg" var="imagem" />
 									<img src="${imagem}" data-src="holder.js/600x600" class="img-circle imagem" />
 								</a>
 								<div class="caption">

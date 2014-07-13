@@ -1,5 +1,7 @@
 package br.com.silas.votenolivro.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,5 +32,11 @@ public class PontoServiceImpl extends GenericServiceImpl<Ponto> implements Ponto
 		} else {
 			pontoDao.salvar(new Ponto(usuario, 1));
 		}		
+	}
+
+	@Override
+	@Transactional
+	public List<Ponto> buscarPontuacao() {
+		return pontoDao.buscarPontuacao();
 	}
 }

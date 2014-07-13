@@ -21,7 +21,7 @@ public class PontosController {
 	public ModelAndView buscarVotos() {
 		ModelAndView modelAndView = new ModelAndView("index");
 		try {
-			List<Ponto> pontos = pontoService.buscarTodos();
+			List<Ponto> pontos = pontoService.buscarPontuacao();
 			modelAndView = new ModelAndView("pontos");
 			modelAndView.addObject("pontos", pontos);
 		} catch (ServiceException e) {

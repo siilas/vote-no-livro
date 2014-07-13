@@ -21,7 +21,7 @@ public class VotosController {
 	public ModelAndView exibirVotos() {
 		ModelAndView modelAndView = new ModelAndView("index");
 		try {
-			List<Voto> votos = votoService.buscarTodos();
+			List<Voto> votos = votoService.buscarRanking();
 			modelAndView = new ModelAndView("ranking");
 			modelAndView.addObject("votos", votos);
 		} catch (ServiceException e) {
