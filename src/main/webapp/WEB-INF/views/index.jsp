@@ -27,7 +27,7 @@
 			</form:form>
 			
 			<p>				
-				<a class="btn btn-lg btn-success" href="javascript:iniciarVotacao();">
+				<a id="btnSubmit" class="btn btn-lg btn-success" href="javascript:iniciarVotacao();">
 					<spring:message code="iniciar.label" />
 				</a>
 			</p>
