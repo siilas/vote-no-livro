@@ -1,13 +1,15 @@
-Projeto Vote No Livro
+Vote No Livro
+=============
 
-Frameworks utilizados:
+Tecnologias e frameworks utilizados:
 Spring
 Hibernate
 Sitemesh
 jUnit
-Sellenium
+Selenium
 jQuery
 Bootstrap
+Maven
 
 Instruções:
 
