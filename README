@@ -1,5 +1,5 @@
 Vote No Livro
-====
+=============
 
 Tecnologias e frameworks utilizados:
 Spring
@@ -15,8 +15,8 @@ Instruções:
 
 No diretório do projeto, digite:
 
-# mvn package
+# <code>mvn package</code>
 
 E depois:
 
-# java -jar target/dependency/jetty-runner.jar target/*.war
+# <code>java -jar target/dependency/jetty-runner.jar target/*.war</code>
