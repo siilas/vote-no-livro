@@ -1,15 +1,15 @@
 Vote No Livro
 =============
 
-Tecnologias e frameworks utilizados:
-Spring
-Hibernate
-Sitemesh
-jUnit
-Selenium
-jQuery
-Bootstrap
-Maven
+Tecnologias e frameworks utilizados:<br />
+Spring<br />
+Hibernate<br />
+Sitemesh<br />
+jUnit<br />
+Selenium<br />
+jQuery<br />
+Bootstrap<br />
+Maven<br />
 
 Instruções:
 
