@@ -2,6 +2,8 @@ Vote No Livro
 =============
 
 Tecnologias e frameworks utilizados:<br />
+------------------------------------------
+
 Spring<br />
 Hibernate<br />
 Sitemesh<br />
@@ -12,6 +14,7 @@ Bootstrap<br />
 Maven<br />
 
 Instruções:
+-----------
 
 No diretório do projeto, digite:
 
